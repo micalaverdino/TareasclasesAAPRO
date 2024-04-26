@@ -1,0 +1,107 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+.dias{
+    
+    font-style: oblique;
+    font-size: 40px;
+    width: 50px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.dias.Lunes{
+    background-color: violet;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dias.Martes{
+    background-color: gold;
+    padding-top: 15px;
+    padding: 15px;
+}
+.dias.Miercoles{
+    background-color: blue;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.dias.Jueves{
+    background-color: pink;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.dias.Viernes{
+    background-color: azure;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.dias.Sabado{
+    background-color: greenyellow;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.h1 {
+    color: red;
+}
+.milanesa {
+    color: blueviolet;
+}
+div{
+    width: 400px; height: 150px;
+    background-color: goldenrod;
+    border: 5px dotted;
+    padding: 40px;
+    margin: 50px;
+    display: inline-table;
+    text-align: center;
+}
+div p {
+display: table-cell;
+vertical-align: middle;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+text-transform: uppercase;
+color: black
+}
+
+.violeta {
+    background-color: violet;
+}
+.amarillo {
+    background-color: yellow;
+}
+.dorado {
+    background-color: goldenrod;
+}
+.celeste {
+background-color: aqua;
+}
+.amarillo, .dorado, .celeste{
+    position: absolute;
+}
+.amarillo {
+    z-index: 2;
+}
+.dorado {
+z-index: 3;
+}
+.celeste {
+    z-index: 100;
+}
+
+.horarios{
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: initial;
+width: 50px;
+}
+.titulo{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}

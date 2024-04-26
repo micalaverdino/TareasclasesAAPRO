@@ -4,29 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer documento</title>
+    <link rel="stylesheet" href = "style.css">
 </head>
 <body>
     <header>
 
 <nav>
 <ul>
-<li>Inicio</li>
-<li><a href="./Tarea 1/contactos.html">Contactos</a></li>
-<li><a href="#section_id">Direcciones</a></li>
+<b><li style = color:blueviolet ;"><font size ="3"><font face = "Arial">INICIO</font></li></b>
+<p><i><li><a href="./Tarea 1/contactos.html">Contactos</a></li></i></p>
+<u><li><a href="#section_id">Direcciones</a></li></u>
 <li>Horarios de Atención</li>
 </ul>
 </nav>
     </header>
     <main>
+        <div><p>¡Me encanta CSS!</p></div>
+       
+        <br>
+        <div class="violeta"></div>
+        <div class="amarillo"></div>
+        <div class="dorado"></div>
+        <div class="celeste"></div>
+
         <section id= "section_id">
             <h1>Soy una section</h1>
             </section>
-    <h1>El Sistema Solar</h1>
-    <h2>Los planetas</h2>
+    <h1 class="h1">El Sistema Solar</h1>
+    <h2 class="milanesa">Los planetas</h2>
     <h3>La tierra</h3>
     <p>La tierra es un planeta terrestre. Es pequeño y rocoso. ... Es el único planeta de nuestro sistema solar que sabemos que tiene las condiciones necesarias para que haya vida.</p>
     <img src="sistema-solar.jpg.jpg" width="450px" height="300px" alt="El planeta tierra">
 
+    <ul>
+        <li style = "color: red;"><font size="3"><font face= "Arial">Ríos</font></li>
+        <li style = "color: pink;"><font size="7"><font face= "Palatino">Continente</font></li>
+        <li style = "color:blue;"><font size = "5"><font face = "Cournier New">Montañas</font></li>
+    </ul>
 <Table border ="5">
     <h1>Tabla de alumnos</h1>
     <tr>
@@ -55,9 +69,9 @@
     </tr>
     <tr>
         <td rowspan="3">Bandas</td>
-        <td>Daddy Yankee<img src="daddyyankee.jpg" width ="50" height ="50"></td>
-        <td>Lady Gaga<img src="ladygaga.jpg" width ="50" height = "50"></td>
-        <td>David Guetta<img src="davidguetta.jpg" width ="50" height ="50"></td>
+        <td>Daddy Yankee<img src="./daddyyankee.jpg" width ="50" height ="50"></td>
+        <td>Lady Gaga<img src="./ladygaga.jpg" width ="50" height = "50"></td>
+        <td>David Guetta<img src="./davidguetta.jpg" width ="50" height ="50"></td>
     </tr>
     <tr>
         <td>Daddy Yankee</td>
@@ -83,5 +97,23 @@
     </tr>
 </table>
 </main>
+<form method = "" action= "">
+    Nombre: <input type = "text" name="NOMBRE">
+    APELLIDO: <input type ="text" name="APELLIDO">
+    <br>
+    INDIQUE SEXO: <br>
+    MASCULINO: <input type ="radio" name="sexo">
+    FEMENINO: <input type ="radio" name="sexo">
+    OTRO: <input type="radio" name="sexo">
+    INDIQUE SUS INTERESES A CONTINUACIÓN: <br>
+    <input type ="checkbox" name="Politica">POLÍTICA<br>
+    <input type ="checkbox" name="Ambiente">AMBIENTE<br>
+    <input type ="checkbox" name ="Economia">ECONOMÍA<br>
+    <input type ="checkbox" name ="Arte">ARTE<br>
+    <input type ="checkbox" name="Ciencia">CIENCIA<br>
+
+    <input type = "submit" value="ENVIAR">
+    <input type ="reset" value ="CANCELAR">
+</form>
 </body>
 </html>
