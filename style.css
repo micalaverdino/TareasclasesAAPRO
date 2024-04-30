@@ -142,3 +142,11 @@ div p {
 .formulario {
   border: 1px solid black;
 }
+ul{
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 1px;
+}
+footer{
+  flex-direction: row;
+}
